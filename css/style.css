@@ -1,0 +1,932 @@
+/*font weight*/
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+/*background color*/
+
+.bg_org {
+    background: #D4805B;
+}
+
+.bg_light_org {
+    background: #FFF0E7;
+}
+
+.bg_light_gray {
+    background: #F8F8F8;
+}
+
+.bg_white {
+    background: #ffffff;
+}
+
+.bg_black {
+    background: #000000;
+}
+
+
+/*color*/
+
+.org {
+    color: #D4805B;
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000000;
+}
+
+.light_gray {
+    color: #828181;
+}
+
+.gray {
+    color: #4F4F4F;
+}
+
+
+/*font size*/
+
+h1 {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+h2 {
+    font-size: 44px;
+    line-height: 52px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+h4 {
+    font-size: 26px;
+    line-height: 38px;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h6 {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.h7 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.h8 {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.h9 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.h10 {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.font-heebo {
+    font-family: 'Heebo', sans-serif;
+}
+
+.font-rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-noto-sans {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* header */
+
+.container {
+    max-width: 1603px;
+}
+
+span.cart_count {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    border-radius: 50px;
+    font-size: 10px;
+    top: 3px;
+    left: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+/* stonz */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d4805b !important;
+}
+
+.stonz ul li {
+    padding-right: 50px;
+}
+
+.shop_now {
+    padding: 10px 40px;
+    margin-top: 23px;
+}
+
+.karen_walker .h9 {
+    letter-spacing: 0.3rem;
+}
+
+.karen_walker .h7 {
+    max-width: 450px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+}
+
+/* new_arrivels */
+
+.padding_top {
+    padding-top: 100px;
+}
+
+.chelsa_text {
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 27px;
+}
+
+.chelsa_img {
+    padding-bottom: 33px;
+}
+
+/* bespoke */
+
+.bespoke_section {
+    margin-top: 117px;
+}
+
+.bespoke_products_bg {
+    height: 614px;
+    width: 69%;
+    z-index: -1;
+}
+
+.bespoke_text {
+    padding: 0px 20px;
+}
+
+.bespoke_img {
+    padding-top: 42px;
+}
+
+.bespoke_text_inner {
+    letter-spacing: 0.05em;
+    line-height: 35px !important;
+}
+
+/* Shipping */
+
+.free_nz_shipping {
+    max-width: 1209px;
+    margin: 0 auto;
+}
+
+/* recent */
+
+.new_arrivels_heading h2::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 100%;
+    background-color: #d4805b;
+    bottom: 11px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.blake_wide_text {
+    padding: 22px 28px 15px 28px;
+}
+
+.recent_products_section {
+    padding-bottom: 67px;
+}
+
+.recent_products_bg {
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* What we do & broker */
+
+.what_we_do_text {
+    margin: 0px 34px 32px 34px;
+    padding: 32px 75px;
+    opacity: 0.8;
+}
+
+.what_we_do_text h3::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 100%;
+    background-color: #d4805b;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.what_we_do_text .shop_now.bg_org {
+    margin-top: 9px !important;
+}
+
+/* client says */
+
+.client_says {
+    max-width: 552px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 30px 27px;
+}
+
+.happy_client_section {
+    margin-top: 111px;
+    padding-bottom: 142px;
+}
+
+.happy_client_inner_text .h7 {
+    line-height: 20px !important;
+}
+
+/* footer */
+
+.footer_section {
+    margin-top: 160px;
+}
+
+.stone_jwellers_footer_text_1 {
+    padding-left: 100px;
+}
+
+.addres {
+    padding-right: 50px;
+}
+
+.lh-50 {
+    line-height: 49px;
+}
+
+.bottom_bar {
+    margin-top: 2px;
+}
+
+.client_says_outter .slick-dots li.slick-active button:before {
+    background-color: #D4805B !important;
+    opacity: 1;
+}
+
+.client_says_outter .slick-dots li button:before {
+    content: '';
+    opacity: 1;
+    top: 64px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px solid #DFDFDF;
+}
+
+.slick-dots li:focus,
+.slick-dots li:focus-visible,
+.navbar-light .navbar-toggler {
+    text-decoration: none;
+    outline: 0;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+}
+
+
+/* container widh meadia wise */
+
+@media (min-width: 1700px) {}
+
+@media only screen and (min-width:1440px) and (max-width:1600px) {}
+
+@media only screen and (min-width:1360px) and (max-width:1439px) {
+    .bespoke_section {
+        margin-top: 80px;
+    }
+
+    .padding_top {
+        padding-top: 80px;
+    }
+
+    .recent_products_section .blake_wide_text .h7 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .bespoke_products_bg {
+        height: 530px;
+    }
+
+    .recent_products_bg {
+        height: 340px;
+    }
+
+    .happy_client_section {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .client_says_outter .slick-dots li button:before {
+        top: 45px;
+    }
+
+    .blake_wide_text {
+        padding: 22px 8px 15px 8px;
+    }
+
+    .stone_jwellers_footer_text_1 {
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1359px) {
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    h3 {
+        font-size: 28px;
+        ;
+    }
+
+    h6,
+    h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .what_we_do_text {
+        margin: 22px;
+        padding: 25px;
+    }
+
+    .shop_now {
+        padding: 8px 30px;
+    }
+
+    .h10 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .addres {
+        padding-right: 0px;
+    }
+
+    .chelsa_text {
+        bottom: 20px;
+    }
+
+    .chelsa_img {
+        padding-bottom: 15px;
+    }
+
+    .bespoke_section {
+        margin-top: 50px;
+    }
+
+    .padding_top {
+        padding-top: 50px;
+    }
+
+    .recent_products_section .blake_wide_text .h7 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .bespoke_products_bg {
+        height: 450px;
+    }
+
+    .bespoke_text_inner {
+        letter-spacing: 0.03em;
+        line-height: 27px !important;
+    }
+
+    .recent_products_bg {
+        height: 340px;
+    }
+
+    .happy_client_section {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .client_says_outter .slick-dots li button:before {
+        top: 45px;
+    }
+
+    .blake_wide_text {
+        padding: 22px 8px 15px 8px;
+    }
+
+    .stone_jwellers_footer_text_1 {
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+    h1,
+    h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    h3 {
+        font-size: 24px;
+        ;
+    }
+
+    h6,
+    h5 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .what_we_do_text {
+        margin: 22px;
+        padding: 25px;
+    }
+
+    .shop_now {
+        padding: 8px 30px;
+        margin-top: 17px !important;
+    }
+
+    .h10 {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .padding_top {
+        padding-top: 50px;
+    }
+
+    .bespoke_section {
+        margin-top: 50px;
+    }
+
+    .bespoke_products_bg {
+        height: 390px;
+    }
+
+    .bespoke_section {
+        padding-top: 30px !important;
+    }
+
+    .bespoke_text_inner {
+        letter-spacing: 0.03em;
+        line-height: 26px !important;
+        font-size: 16px;
+    }
+
+    .blake_wide_text {
+        padding: 10px 0;
+    }
+
+    .stone_jwellers_footer_text_1 {
+        padding-left: 55px;
+    }
+
+    .h7 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .happy_client_section {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .client_says_outter .slick-dots li button:before {
+        top: 45px;
+    }
+
+    .addres {
+        padding-right: 0px;
+    }
+
+    .stonz ul li {
+        padding-right: 0px;
+    }
+
+    .footer_section .stone_jwellers_footer_text .h8 {
+        padding-right: 0 !important;
+    }
+
+    .footer_section {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .frofile {
+        margin: 0 !important;
+    }
+
+    div#navbarSupportedContent {
+        position: absolute;
+        top: 68px;
+        width: 100%;
+        left: 0;
+        padding: 10px;
+    }
+
+    button:focus:not(:focus-visible) {
+        border: 0;
+        color: white;
+    }
+
+    h1,
+    h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    h3 {
+        font-size: 24px;
+        ;
+    }
+
+    h6,
+    h5 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .what_we_do_text {
+        margin: 22px;
+        padding: 25px;
+    }
+
+    .shop_now {
+        padding: 8px 30px;
+        margin-top: 17px !important;
+    }
+
+    .h10 {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .padding_top {
+        padding-top: 50px;
+    }
+
+    .bespoke_section {
+        margin-top: 50px;
+    }
+
+    .bespoke_products_bg {
+        height: 390px;
+    }
+
+    .bespoke_section {
+        padding-top: 30px !important;
+    }
+
+    .bespoke_text_inner {
+        letter-spacing: 0.03em;
+        line-height: 26px !important;
+        font-size: 16px;
+    }
+
+    .blake_wide_text {
+        padding: 10px 0;
+    }
+
+    .stone_jwellers_footer_text_1 {
+        padding-left: 0px;
+    }
+
+    .recent_products_section {
+        padding-bottom: 35px;
+    }
+
+    .recent_products_bg {
+        height: 210px;
+    }
+
+    .what_we_do_section .col-lg-6 {
+        padding-bottom: 50px;
+    }
+
+    .h7 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .happy_client_section {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .client_says_outter .slick-dots li button:before {
+        top: 31px;
+    }
+
+    .addres {
+        padding-right: 0px;
+    }
+
+    .stonz ul li {
+        padding-right: 0px;
+    }
+
+    .footer_section .stone_jwellers_footer_text .h8 {
+        padding-right: 0 !important;
+    }
+
+    .footer_section {
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width:767px) {
+    div#navbarSupportedContent {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        left: 0;
+        background-color: #fff;
+        padding-bottom: 10px;
+    }
+
+    h1,
+    h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    h3 {
+        font-size: 24px;
+        ;
+    }
+
+    h6,
+    h5 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .what_we_do_text {
+        margin: 22px;
+        padding: 25px;
+    }
+
+    .shop_now {
+        padding: 8px 30px;
+        margin-top: 17px !important;
+    }
+
+    .h10 {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .padding_top {
+        padding-top: 50px;
+    }
+
+    .footer_section {
+        margin-top: 50px !important;
+    }
+
+    .bespoke_section {
+        margin-top: 50px;
+    }
+
+    .bespoke_products_bg {
+        height: 390px;
+    }
+
+    .bespoke_section {
+        padding-top: 30px !important;
+    }
+
+    .bespoke_text_inner {
+        letter-spacing: 0.03em;
+        line-height: 26px !important;
+        font-size: 16px;
+    }
+
+    .blake_wide_text {
+        padding: 10px 0;
+    }
+
+    .stone_jwellers_footer_text_1 {
+        padding-left: 0px;
+    }
+
+    .h7 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .happy_client_section {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .client_says_outter .slick-dots li button:before {
+        top: 23px;
+    }
+
+    .addres {
+        padding-right: 0px;
+    }
+
+    .stonz ul li {
+        padding-right: 0px;
+    }
+
+    .footer_section .stone_jwellers_footer_text .h8 {
+        padding-right: 0 !important;
+    }
+
+}
+
+@media (max-width:481px) {
+    .padding_top {
+        padding-top: 30px;
+    }
+
+    .new_arrivels_heading {
+        margin-bottom: 30px !important;
+    }
+
+    .navbar {
+        padding: 10px 0px !important;
+    }
+
+    .stonz img {
+        width: 75%;
+    }
+
+    div#navbarSupportedContent {
+        top: 48px;
+        padding: 10px;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        color: white;
+        border: 0;
+    }
+
+    h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .frofile {
+        margin: 0 !important;
+        padding: 0 5px !important;
+    }
+
+    h1,
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bespoke_section {
+        padding-top: 0px !important;
+        margin-top: 0px;
+    }
+
+    .bespoke_img {
+        padding-bottom: 42px;
+    }
+
+    .blake_wide_text {
+        padding: 10px 40px;
+    }
+
+    .recent_products_section {
+        padding-bottom: 30px;
+    }
+
+    .recent_products_bg {
+        height: 240px;
+    }
+
+    .what_we_do_text {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .karen_walker .h9 {
+        letter-spacing: 0.1rem;
+    }
+
+    .karen_walker .h7 {
+        padding: 10px 20px 0px;
+    }
+
+    .client_says {
+        margin: 0px !important;
+    }
+
+    .h7 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    h6,
+    h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer_section {
+        margin-top: 20px !important;
+    }
+
+    .footer_section .stone_jwellers_footer_text .h8 {
+        padding: 5px 0px !important;
+    }
+
+    .lh-50 {
+        line-height: 30px;
+    }
+}
